@@ -1,0 +1,288 @@
+*{margin: 0; padding: 0;} 
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Big Shoulders Text', cursive;
+    
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    position: relative;
+    background-color: white;
+    height: 65px;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    height: 25px;
+    width: 200px;
+    opacity: 1;
+    transition: 0.5s;
+    top: 20px;
+    display: block;
+}
+.logo:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.logo img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+a i{
+    color: rgb(61,66,70);
+    transition: 0.3s;
+    padding-top: 10px;
+}
+a i:hover {
+    transition: 0.3s;
+    color: rgb(243,163,163);
+}
+.body img {
+    max-width: 100%;
+    width: 260px;
+    height: 260px;
+    transition: 0.4s;
+}
+.body img:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+}
+ul li a {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.3s;
+    padding-right: 15px;
+}
+ul li a:hover{
+    transition: 0.3s;
+    color: rgb(243,163,163);
+}
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
+    background-color: white;
+    height: 65x;
+} 
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,0.8);
+    transition: 0.3s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(243,163,163);
+    transition: 0.3s;
+}
+.dropdown-menu.boxdropdown {
+    border-radius: 0px;
+    top: 157%;
+    left: -10%;
+    z-index: 100;
+}
+.dropdown-menu.boxdropdown a {
+    display: inline-block;
+    transition: 0.3s;   
+}
+.dropdown-menu.boxdropdown a:hover{
+    transition: 0.3s;
+    color: rgb(243,163,163);
+}
+ /* footer */
+.footer {
+    position: relative;
+    height: 65px;
+    padding-top: 0;
+    
+}
+.fixed{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+}
+.footer .left{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.footer .right{
+    position: absolute;
+    position: relative;
+    top: 15%;
+    right: 5%;
+    justify-content: flex-start;
+}
+.footer .right .mulicon{
+    position: absolute;
+    top: 0;
+    right: 25%;
+}
+.footer .right .mulicon a{
+    margin-right: 10px;
+}
+.footer .left p {
+    font-size: 11px;
+    font-weight: 300;
+}
+.formsub{
+    position: absolute;
+    top: 0%;
+    right: 0px;
+}
+ .formsub input[type="email"] {
+    width: 200px;
+    padding-left: 20px;
+    font-size: 13px;
+    height: 30px;
+}
+button.btn{
+    width: 115px;
+    height: 30px;
+    border-radius: 0;
+    color: white;
+    background-color: rgb(49,49,49);
+    transition: 0.4s;
+    padding-top: 5px;
+}
+ button.btn:hover{
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    /* height:  100%; */
+}
+.container {
+    width: 94%;
+    
+}
+.sort{
+    
+    height: 550px;
+    display: block;
+}
+
+.category{
+    display: block;
+    height: 550px;
+   
+}
+.category ul {
+    padding-top: 30px;
+}
+.category ul li{
+    margin-bottom:  3px;
+}
+.category ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3d4246;
+    transition: 0.4s;
+    line-height: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.category ul li a.all{
+    font-weight: 600;
+}
+.category ul li a:hover{
+    transition: 0.4s;
+    color: rgb(243,163,163);
+}
+/* end category */
+.sort{
+    display: block;
+    height: 550px;
+   
+}
+.sort ul {
+    padding-top: 30px;
+}
+.sort ul li{
+    margin-bottom:  3px;
+}
+.sort ul li a{
+    text-decoration: none;
+    color: #3d4246;
+    transition: 0.4s;
+    line-height: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.sort ul li a.sort_{
+    font-weight: 600;
+}
+.sort ul li a:hover{
+    transition: 0.4s;
+    color: rgb(243,163,163);
+}
+/* end sort*/
+.content {
+    display: block; 
+    height: 550px;
+    
+}
+.content .grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    max-height: 100%;
+    /* background: wheat; */
+}
+.content .grid a{
+    display: block;
+    text-decoration: none;
+    color: #3d4246;
+    transition: 0.4s;
+    width: 30%;
+
+}
+.content .grid a .block{
+    text-align: center;
+   
+}
+.grid a .block h4 {
+    margin-top: 5px;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.grid a .block{
+    transition: 0.4s;
+    opacity: 1;
+}
+.grid a .block:hover{
+    transition: 0.4s;
+    opacity: 0.8;
+}
+.grid a .block.soldout{
+    opacity: 0.7;
+    padding-top: -10px;
+    width: 20px;
+    display: inline;
+    color: #3d4246;;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.grid a .block:hover .soldout{
+    transition: 0.4s;
+    color: rgb(243,163,163);
+}
+

@@ -1,0 +1,149 @@
+*{margin: 0; padding: 0;} 
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Big Shoulders Text', cursive;
+    
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+
+a i{
+    color: rgb(61,66,70);
+    transition: 0.3s;
+    padding-top: 10px;
+}
+a i:hover {
+    transition: 0.3s;
+    color: rgb(243,163,163);
+}
+
+ul li a {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.3s;
+    padding-right: 15px;
+}
+ul li a:hover{
+    transition: 0.3s;
+    color: rgb(243,163,163);
+}
+
+ 
+button.btn{
+    width: 115px;
+    height: 30px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(49,49,49);
+    transition: 0.4s;
+    padding-top: 5px;
+}
+ button.btn:hover{
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: absolute;
+    top: 80px;
+}
+.body .left{
+    
+    height: 100%;
+}
+.body .right{
+    /* border-left: 1px solid rgb(217,217,217); */
+    height: 800px;
+    width: 100%;
+}
+/* left*/
+.left a {
+    text-decoration: none;
+    color: rgb(61,66,70);
+    transition: 0.4s;
+}
+.left ul li span{
+    color: #333333;
+}
+.left a:hover{
+    color: rgb(243,163,163);
+    transition: 0.4s;
+}
+.form-control.long{
+    height: 45px;
+    
+    margin-bottom: 8px;
+}
+
+.form-control.medium{
+    height: 45px;
+    
+    margin-bottom: 8px;
+}
+.form-control.short{
+    height: 45px;
+    
+    margin-bottom: 8px;
+}
+.long-field{
+    width: 580px;
+}
+.medium-field{
+    width: 380px;
+}
+.short-field{
+    width: 180px;
+}
+.inline {
+    width: 580px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+.form-check-input {
+    left: 50px;
+}
+.form-check{
+    height: 45px;
+    width: 580px;
+    border:1px solid rgb(217,217,217);
+    border-radius: 5px;
+    padding-left: 30px;
+}
+.form-check span {
+    padding-left: 370px;
+}
+.notify {
+    content: "MOLLYCLO sẽ liên hệ với bạn qua điện thoại để xác nhận và gửi hàng sau khi bạn đặt hàng thành công trên website. Nếu quá 3 ngày chưa thấy shop gọi nghĩa là sản phẩm đã hết hàng";
+
+    white-space: pre-line;
+    padding: 10px;
+    width: 580px;
+    height: 115px;
+    text-align: center;
+    background: rgb(250,250,250);
+}
+.btn.finish {
+    width: 165px;
+    height: 60px;
+}
+
+
+/* right */
+td img {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
